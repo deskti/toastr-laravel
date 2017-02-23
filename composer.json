@@ -3,12 +3,17 @@
     "description": "toastr.js for laravel5",
     "type": "laravel",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "henscs",
             "email": "henscs@outlook.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Henscs\\Toastr\\": "src/"
+        }
+    }
 }
